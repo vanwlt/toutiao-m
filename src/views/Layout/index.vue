@@ -1,46 +1,54 @@
 <template>
   <div>
-    <van-tabbar v-model="active">
-      <van-tabbar-item to="/home">
+    <!-- 二级路由页面 -->
+    <router-view></router-view>
+
+    <!-- 底部导航 -->
+    <van-tabbar route>
+      <van-tabbar-item to="/ ">
         <template #icon>
           <span class="toutiao tt-shouye"></span>
           <span class="text">首页</span>
         </template>
       </van-tabbar-item>
-      <van-tabbar-item to="/qa">
+
+      <van-tabbar-item to="/video">
         <template #icon>
           <span class="toutiao tt-shipin"></span>
           <span class="text">视频</span>
         </template>
       </van-tabbar-item>
-      <van-tabbar-item to="/video">
+
+      <van-tabbar-item to="/qa">
         <template #icon>
           <span class="toutiao tt-wenda"></span>
           <span class="text">问答</span>
         </template>
       </van-tabbar-item>
-      <van-tabbar-item to="/my">
+
+      <van-tabbar-item to="/profile">
         <template #icon>
           <span class="toutiao tt-wode"></span>
           <span class="text">我的</span>
         </template>
       </van-tabbar-item>
     </van-tabbar>
-    <router-view></router-view>
   </div>
 </template>
 
 <script>
+// route 路由模式是什么意思
+//  1. 每一个item 绑定了to属性
+//  2. route模式, 就是拿到path以后, 和to属性里面的值比对, 比对成功, 就高亮
 export default {
+  name: 'Layout',
   data() {
-    return {
-      active: 0
-    }
+    return {}
   }
 }
 </script>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 :deep(.van-tabbar-item__icon) {
   display: flex;
   flex-direction: column;
