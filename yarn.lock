@@ -2034,6 +2034,11 @@ big.js@^5.2.2:
   resolved "https://registry.npmmirror.com/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
   integrity sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==
 
+bignumber.js@^9.0.0:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.2.tgz#71c6c6bed38de64e24a65ebe16cfcf23ae693673"
+  integrity sha512-GAcQvbpsM0pUb0zw1EI0KhQEZ+lRwR5fYaAp3vPOYuP7aDvGy6cVN6XHLauvF8SOga2y0dcLcjt3iQDTSEliyw==
+
 binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npmmirror.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
@@ -2379,6 +2384,11 @@ commander@^8.2.0, commander@^8.3.0:
   resolved "https://registry.npmmirror.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
 
+commander@^9.0.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.4.0.tgz#bc4a40918fefe52e22450c111ecd6b7acce6f11c"
+  integrity sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==
+
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
@@ -2497,6 +2507,11 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
+
+cropperjs@^1.5.12:
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/cropperjs/-/cropperjs-1.5.12.tgz#d9c0db2bfb8c0d769d51739e8f916bbc44e10f50"
+  integrity sha512-re7UdjE5UnwdrovyhNzZ6gathI4Rs3KGCBSc8HCIjUo5hO42CtzyblmWLj6QWVw7huHyDMfpKxhiO2II77nhDw==
 
 cross-spawn@^5.0.1:
   version "5.1.0"
@@ -3581,6 +3596,11 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
+github-markdown-css@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/github-markdown-css/-/github-markdown-css-5.1.0.tgz#a96281cd90a8969e3c13b9d3ca6a733a523a00a6"
+  integrity sha512-QLtORwHHtUHhPMHu7i4GKfP6Vx5CWZn+NKQXe+cBhslY1HEt0CTEkP4d/vSROKV0iIJSpl4UtlQ16AD8C6lMug==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.npmmirror.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
@@ -3713,6 +3733,11 @@ highlight.js@^10.7.1:
   version "10.7.3"
   resolved "https://registry.npmmirror.com/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
+
+highlight@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/highlight/-/highlight-0.2.4.tgz#8ac02875b03f5935e0675852b76cfe1fd58e0dff"
+  integrity sha512-TEcWU6BolpDYIaVD91KmaYe/kRZwOmQlLWZGO8DK+Cs555+7mawk2KUnF/dBwcLnrvlCDk/xC+BXfz7Zva+Jfg==
 
 hosted-git-info@^2.1.4:
   version "2.8.9"
@@ -4203,6 +4228,13 @@ jsesc@~0.5.0:
   version "0.5.0"
   resolved "https://registry.npmmirror.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha512-uZz5UnB7u4T9LvwmFqXii7pZSouaRPorGs5who1Ip7VO0wxanFvBL7GkM6dTHlgX+jhBApRetaWpnDabOeTcnA==
+
+json-bigint@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/json-bigint/-/json-bigint-1.0.0.tgz#ae547823ac0cad8398667f8cd9ef4730f5b01ff1"
+  integrity sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==
+  dependencies:
+    bignumber.js "^9.0.0"
 
 json-parse-better-errors@^1.0.2:
   version "1.0.2"
@@ -5847,6 +5879,13 @@ shell-quote@^1.6.1:
   version "1.7.3"
   resolved "https://registry.npmmirror.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
   integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
+
+showdown@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/showdown/-/showdown-2.1.0.tgz#1251f5ed8f773f0c0c7bfc8e6fd23581f9e545c5"
+  integrity sha512-/6NVYu4U819R2pUIk79n67SYgJHWCce0a5xTP979WbNp0FL9MN1I1QK662IDU1b6JzKTvmhgI7T7JYIxBi3kMQ==
+  dependencies:
+    commander "^9.0.0"
 
 side-channel@^1.0.4:
   version "1.0.4"

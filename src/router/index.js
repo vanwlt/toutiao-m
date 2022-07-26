@@ -1,3 +1,4 @@
+// import { pop } from 'core-js/core/array'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // import Login from '@/views/Login'
@@ -35,6 +36,14 @@ const routes = [
   {
     path: '/search',
     component: () => import('@/views/Search')
+  },
+  {
+    path: '/articledetails/:id',
+    component: () => import('@/views/ArticleDetails')
+  },
+  {
+    path: '/materials',
+    component: () => import('@/views/Edit')
   }
 ]
 

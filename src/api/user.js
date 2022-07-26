@@ -1,4 +1,4 @@
-import store from '@/store'
+// import store from '@/store'
 import request from '@/utils/request'
 
 /**
@@ -28,9 +28,51 @@ export const sendCode = (mobile) => {
 
 export const getUserInfo = () => {
   return request({
-    url: '/v1_0/user',
-    headers: {
-      Auehorization: `Bearer ${store.state.user.token}`
+    url: '/v1_0/user'
+  })
+}
+
+// 关注请求
+export const attention = (target) => {
+  return request({
+    url: '/v1_0/user/followings',
+    method: 'POST',
+    data: {
+      target
     }
+  })
+}
+// 取消关注请求
+export const unfollow = (target) => {
+  return request({
+    url: `/v1_0/user/followings/${target}`,
+    method: 'DELETE'
+  })
+}
+
+// 获取当前登录用户的个人信息
+
+export const getUserProfile = (target) => {
+  return request({
+    method: 'GEt',
+    url: '/v1_0/user/profile'
+  })
+}
+
+// 更新用户资料
+export const updateUserProfile = (data) => {
+  return request({
+    method: 'PATCH',
+    url: '/v1_0/user/profile',
+    data
+  })
+}
+
+// 更新用户照片资料
+export const updateUserPhoto = (data) => {
+  return request({
+    method: 'PATCH',
+    url: '/v1_0/user/photo',
+    data
   })
 }

@@ -5,7 +5,7 @@
     :style="{ height: '100%' }"
     closeable
   >
-    <div class="popupMain">
+    <!-- <div class="popupMain">
       <div class="my-channel">
         <van-cell title="我的频道">
           <van-button
@@ -45,7 +45,7 @@
           ></van-grid-item
         ></van-grid>
       </div>
-    </div>
+    </div> -->
   </van-popup>
 </template>
 

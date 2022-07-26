@@ -21,7 +21,7 @@
           <van-col span="11">
             <van-row class="code-row" type="flex" align="center" justify="end">
               <van-button class="code-btn" round size="mini"
-                >编辑资料</van-button
+                to='/materials'>编辑资料</van-button
               >
             </van-row>
           </van-col>

@@ -8,8 +8,13 @@ import Vant from 'vant'
 import 'vant/lib/index.css'
 // 引入flexible
 import 'amfe-flexible/index.min.js'
+import showdown from 'showdown'
+import 'github-markdown-css'
+import hljs from 'highlight.js'
 
 Vue.config.productionTip = false
+Vue.use(showdown)
+Vue.use(hljs)
 Vue.use(Vant)
 new Vue({
   router,
